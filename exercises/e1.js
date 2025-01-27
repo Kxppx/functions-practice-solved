@@ -14,8 +14,10 @@
 */
 
 // Your code goes here
-
-
+function logMessage() {
+  console.log("Hello, World!");
+}
+logMessage();
 
 
 /**
@@ -30,10 +32,10 @@
 */
 
 // Your code goes here...
-
-
-
-
+function logMyMessage(message) {
+  console.log(message);
+}
+logMyMessage("My message")
 /**
  * ===============================================================
  * Create a  function that works as follows:
@@ -45,8 +47,11 @@
 */
 
 // Your code goes here...
-
-
+function logMessageWithMyName(name) {
+  const phrase = "My name is " + name + "!";
+  console.log(phrase)
+}
+logMessageWithMyName("Andrey");
 
 
 /**
@@ -61,8 +66,11 @@
 */
 
 // Your code goes here...
-
-
+function logMyInfo(name, age) {
+  const phrase = "My name is " + name + ". I am " + age + " years old!";
+  console.log(phrase);
+}
+logMyInfo("Andrey", 18);
 
 
 // === TEST YOURSELF ===
